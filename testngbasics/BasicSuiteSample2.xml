@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ReleaseTesting">
+	<test name="AccountTesting">
+		<classes>
+			<class name="testngbasics.CheckBoxTestcase">
+				<methods>
+					<!--Here it execute only needed testcase.so copy that testcase method name here..
+					Here exclude also there to exclude a testcase from that class-->
+					<include name="verify_single_checkBox_header_text"></include>
+					<include name="verify_single_checkBox_label"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

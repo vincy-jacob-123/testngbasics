@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeTest">
+	<test name="LoginTestCases">
+		<classes>
+			<class name="testngbasics.BasicTestCase"></class>
+			<class name="testngbasics.CheckBoxTestcase"></class>
+			<class name="testngbasics.softAssertExample"></class>
+		</classes>
+	</test>
+</suite>
+
+<!--right click on project , new - file, then create a .xml file..
+Then right click on any class and testng-convert to testng, 
+copy first two lines from preview to this xml file-->
